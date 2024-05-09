@@ -1,0 +1,44 @@
+.infocontainer {
+  height: 90vh;
+  width: 65vw;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: rgb(173, 216, 230);
+}
+
+.infocontainer h1 {
+  font-family: "Oswald", sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+.infocontainer p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: left; 
+  margin-bottom: 30px;
+}
+
+.infocontainer li {
+  font-family: "Source Code Pro", monospace;
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0;
+  
+}
+
+.infocontainer li a {
+  text-decoration: none;
+  color: black;
+}
+
+.infocontainer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.infocontainer ul li {
+  margin: 0 10px;
+}
+

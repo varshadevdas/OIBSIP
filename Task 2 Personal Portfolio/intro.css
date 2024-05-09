@@ -1,0 +1,20 @@
+.intro h2 {
+  font-family: "Oswald", sans-serif;
+  margin: 23px;
+  text-align: center;
+}
+
+.intro p {
+  font-family: "Source Code Pro", monospace;
+  margin: 23px;
+}
+
+.infoContainer {
+  width: 50%; /* Adjust width as needed */
+  height: 320px;
+  margin: 120px auto; /* Center the sections horizontally with some margin */
+  border-style: dashed;
+  border-color: dodgerblue;
+  background-color: aliceblue;
+  padding: 20px; /* Add padding for spacing */
+}

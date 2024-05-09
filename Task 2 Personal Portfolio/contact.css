@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.contactform {
+  font-family: "Oswald", sans-serif;
+  padding: 0 40px;
+  padding-top: 100px;
+}
+
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  padding: 12px 0;
+}
+
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform form div input {
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+
+#emailHelp {
+  font-size: 12px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+#form-check {
+  flex-direction: row;
+}
+
+#form-check input {
+  width: 24px;
+  margin: 3px 0;
+}
+
+.btn-sm {
+  font-size: 15px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}

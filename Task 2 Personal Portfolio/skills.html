@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Custom styles for skills page */
+        /* Your existing styles can go here */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+        .skills {
+            padding: 150px;
+        }
+        .headline {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .skill-container {
+            margin-bottom: 20px;
+        }
+        .skill {
+            margin-bottom: 15px;
+        }
+        .skill-name {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .progress-bar {
+            height: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+        .progress {
+            height: 100%;
+            border-radius: 5px;
+            background-color: #007bff;
+            text-align: right;
+            padding-right: 5px;
+            color: #fff;
+            font-weight: bold;
+            transition: width 0.5s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                        <li><a href="/intro.html">MY INTRO</a></li>
+                        <li><a href="/projects.html">PROJECTS</a></li>
+                        <li><a href="/skills.html">SKILLS</a></li>
+                        <li><a href="/social.html">SOCIAL LINKS</a></li>
+                        <li><a href="/contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="skills">
+                <h1 class="headline">Skills</h1>
+                <div class="skill-container">
+                    <div class="skill">
+                        <div class="skill-name">HTML</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%;">100%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">CSS</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                      <div class="skill-name">PHP</div>
+                      <div class="progress-bar">
+                          <div class="progress" style="width: 75%;">75%</div>
+                      </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                      <div class="skill-name">Java</div>
+                      <div class="progress-bar">
+                          <div class="progress" style="width: 70%;">70%</div>
+                      </div>
+                  </div>
+                      <div class="skill">
+                        <div class="skill-name">SQL</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-name">Python</div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
